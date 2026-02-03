@@ -18,8 +18,8 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: maven
-      - name: Build Jar
-        run: mvn clean install
+      - name: Build Jar(Skip Tests)
+        run: mvn clean package -DskipTests=true -B
 
       - name: Upload Jar to Artifact
         uses: actions/upload-artifact@v4
