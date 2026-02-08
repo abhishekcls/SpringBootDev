@@ -66,7 +66,4 @@ public class CustomerController {
         return ResponseEntity.ok(customerEmail);
 
     }
-
-
-
 }
