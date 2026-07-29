@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestApiJpaApplication {
 
     public static void main(String[] args) {
-        //demo
+        //demo github actions
         SpringApplication.run(RestApiJpaApplication.class, args);
     }
 }
